@@ -14,7 +14,7 @@ const localizationStrings = {
     best_practice: "Best Practice ",
   },
   it: {
-    best_practice: "Best Practice ",
+    best_practice: "Buona Pratica ",
   },
   ja: {
     best_practice: "最良実施例 ",
