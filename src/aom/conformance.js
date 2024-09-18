@@ -34,10 +34,10 @@ const localizationStrings = {
     keywordInterpretation(keywords, plural) {
       return html`<p>
         parol${plural ? "e" : "a"} chiave ${keywords} in questo documento
-        ${plural ? "sono" : "è"} da interpretarecome descritto nel
+        ${plural ? "sono" : "e"} da interpretare come descritto nel
         <a href="https://datatracker.ietf.org/doc/html/bcp14">BCP 14</a>
         ${renderInlineCitation("RFC2119")} ${renderInlineCitation("RFC8174")}
-        in tutte maiuscole, come mostrato qui.
+        when, and only when, they appear in all capitals, as shown here.
       </p>`;
     },
   },
