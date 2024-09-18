@@ -24,7 +24,7 @@ const localizationStrings = {
     test: "test",
   },
   it: {
-    missing_test_suite_uri: docLink`Found tests in your spec, but missing ${"[testSuiteURI]"} in your ReSpec config.`,
+    missing_test_suite_uri: docLink`Trovati test nella tua specifica, ma manca ${"[testSuiteURI]"} nella tua configurazione ReSpec.`,
     tests: "test",
     test: "test",
   },
