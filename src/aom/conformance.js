@@ -37,9 +37,7 @@ const localizationStrings = {
         in questo documento
         ${plural ? "sono" : "è"} da interpretare come descritto nel
         <a href="https://datatracker.ietf.org/doc/html/bcp14">BCP 14</a>
-        ${renderInlineCitation("RFC2119")} ${renderInlineCitation("RFC8174")}
-        quando, e solo quando, ${plural ? "appaiono" : "appare"} con tutte
-        maiuscole, come mostrato qui.
+
       </p>`;
     },
   },
