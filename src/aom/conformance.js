@@ -33,7 +33,6 @@ const localizationStrings = {
       "è normativo.",
     keywordInterpretation(keywords, plural) {
       return html`<p>
-        ${plural ? "Le" : "La"}
         Parol${plural ? "e" : "a"} chiave ${keywords} in questo documento
         ${plural ? "are" : "is"} to be interpreted as described in
         <a href="https://datatracker.ietf.org/doc/html/bcp14">BCP 14</a>
