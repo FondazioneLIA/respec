@@ -26,6 +26,7 @@ const localizationStrings = {
   it: {
     /**
      *
+     * Do I need to translate also Appendix and Section?
      * @param {"Appendix" | "Section"} sectionType
      */
     permalinkLabel(sectionType, sectionNumber) {
