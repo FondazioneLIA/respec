@@ -25,7 +25,6 @@ const localizationStrings = {
   en: {
     toc: "Table of Contents",
   },
-
   it: {
     toc: "Indice dei Contenuti",
   },
