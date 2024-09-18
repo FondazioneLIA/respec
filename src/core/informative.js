@@ -10,6 +10,9 @@ const localizationStrings = {
   en: {
     informative: "This section is non-normative.",
   },
+  it: {
+    informative: "Questa sezione è non normativa.",
+  },
   nl: {
     informative: "Dit onderdeel is niet normatief.",
   },
