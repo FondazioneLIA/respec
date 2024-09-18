@@ -24,6 +24,22 @@ const localizationStrings = {
       </p>`;
     },
   },
+  it: {
+    conformance: "Conformance",
+    normativity:
+      "As well as sections marked as non-normative, all authoring guidelines, " +
+      "diagrams, examples, and notes in this specification are non-normative. " +
+      "Everything else in this specification is normative.",
+    keywordInterpretation(keywords, plural) {
+      return html`<p>
+        The key word${plural ? "s" : ""} ${keywords} in this document
+        ${plural ? "are" : "is"} to be interpreted as described in
+        <a href="https://datatracker.ietf.org/doc/html/bcp14">BCP 14</a>
+        ${renderInlineCitation("RFC2119")} ${renderInlineCitation("RFC8174")}
+        when, and only when, they appear in all capitals, as shown here.
+      </p>`;
+    },
+  },
 };
 const l10n = getIntlData(localizationStrings);
 
