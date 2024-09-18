@@ -15,12 +15,6 @@ const localizationStrings = {
     references: "References",
     reference_not_found: "Reference not found.",
   },
-  it: {
-    info_references: "Riferimenti informativi",
-    norm_references: "Riferimenti informativi",
-    references: "Riferimenti",
-    reference_not_found: "Riferimento non trovato.",
-  },
   ko: {
     references: "참조",
   },
