@@ -32,11 +32,6 @@ const localizationStrings = {
       "specifica sono non normative. Tutto il resto in questa specifica " +
       "è normativo.",
     keywordInterpretation(keywords, plural) {
-      return html`<p>
-        ${renderInlineCitation("RFC2119")} ${renderInlineCitation("RFC8174")}
-        quando, e solo quando, ${plural ? "appaiono" : "appare"} con tutte
-        maiuscole, come mostrato qui.
-      </p>`;
     },
   },
 };
