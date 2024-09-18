@@ -29,17 +29,17 @@ const localizationStrings = {
   },
   it: {
     msg(term, cite) {
-      return `Normative reference to "${term}" found but term is defined "informatively" in "${cite}".`;
+      return `Riferimento normativo a "${term}" trovato, ma il termine è definito "informativamente" in "${cite}".`;
     },
     get hint() {
       return docLink`
-        You can do one of the following...
+        Puoi fare una delle seguenti cose...
 
-          * Get the source definition to be made normative
-          * Add a \`class="lint-ignore"\` attribute to the link.
-          * Use a local normative proxy for the definition à la \`<dfn data-cite="spec">term</dfn>\`
+          * Far diventare la definizione sorgente normativa
+          * Aggiungere un attributo \`class="lint-ignore"\` al link.
+          * Usare un proxy normativo locale per la definizione, ad esempio \`<dfn data-cite="spec">term</dfn>\`
 
-        To silence this warning entirely, set \`lint: { "${ruleName}": false }\` in your \`respecConfig\`.`;
+        Per silenziare completamente questo avviso, imposta \`lint: { "${ruleName}": false }\` nel tuo \`respecConfig\`.`;
     },
   },
 };
