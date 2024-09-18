@@ -32,12 +32,13 @@ const localizationStrings = {
       "specifica sono non normative. Tutto il resto in questa specifica " +
       "è normativo.",
     keywordInterpretation(keywords, plural) {
-      return html`<p>${plural ? "Le" : "La"}
+      return html`<p>
         parol${plural ? "e" : "a"} chiave ${keywords} in questo documento
-        ${plural ? "are" : "is"} to be interpreted as described in
+        ${plural ? "sono" : "è"} da interpretarecome descritto nel
         <a href="https://datatracker.ietf.org/doc/html/bcp14">BCP 14</a>
         ${renderInlineCitation("RFC2119")} ${renderInlineCitation("RFC8174")}
-        when, and only when, they appear in all capitals, as shown here.
+        quando, e solo quando, ${plural ? "appaiono" : "appare"}
+        in tutte maiuscole, come mostrato qui.
       </p>`;
     },
   },
