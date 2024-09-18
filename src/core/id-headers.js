@@ -26,11 +26,11 @@ const localizationStrings = {
   it: {
     /**
      *
-     * @param {"Appendix" | "Section"} sectionType
+     * @param {"Appendice" | "Sezione"} sectionType
      */
     permalinkLabel(sectionType, sectionNumber) {
-      let label = `Permalink for${
-        !sectionNumber ? " this" : ""
+      let label = `Permalink per${
+        !sectionNumber ? " questa" : ""
       } ${sectionType}`;
       if (sectionNumber) {
         label += ` ${norm(sectionNumber.textContent)}`;
