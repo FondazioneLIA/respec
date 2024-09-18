@@ -37,7 +37,8 @@ const localizationStrings = {
         ${plural ? "sono" : "e"} da interpretare come descritto nel
         <a href="https://datatracker.ietf.org/doc/html/bcp14">BCP 14</a>
         ${renderInlineCitation("RFC2119")} ${renderInlineCitation("RFC8174")}
-        when, and only when, they appear in all capitals, as shown here.
+        quando, e solo quando, ${plural ? "appare" : "appaiono"}
+        in tutte maiuscole, come mostrato qui.
       </p>`;
     },
   },
