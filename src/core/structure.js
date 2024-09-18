@@ -25,8 +25,6 @@ const localizationStrings = {
   en: {
     toc: "Table of Contents",
   },
-  it: {
-  },
   zh: {
     toc: "内容大纲",
   },
