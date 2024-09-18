@@ -35,8 +35,6 @@ const localizationStrings = {
     inSomeEngines: "This feature has limited support.",
   },
   it: {
-    inAllEngines: "Questa funzionalità è presente in tutti i principali " +
-    "motori.",
     inSomeEngines: "Questa funzionalità ha un supporto limitato.",
   },
   zh: {
