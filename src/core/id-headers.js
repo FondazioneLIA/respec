@@ -26,7 +26,7 @@ const localizationStrings = {
   it: {
     /**
      *
-     * @param {"Appendice" | "Sezione"} sectionType
+     * @param {"Appendix" | "Section"} sectionType
      */
     permalinkLabel(sectionType, sectionNumber) {
       let label = `Permalink per${
