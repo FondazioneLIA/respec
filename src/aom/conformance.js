@@ -31,8 +31,6 @@ const localizationStrings = {
       "per gli autori, i diagrammi, gli esempi, e le note in questa " +
       "specifica sono non normative. Tutto il resto in questa specifica " +
       "è normativo.",
-    keywordInterpretation(keywords, plural) {
-    },
   },
 };
 const l10n = getIntlData(localizationStrings);
