@@ -8,6 +8,9 @@ const localizationStrings = {
   en: {
     abstract: "Abstract",
   },
+  it: {
+    abstract: "Abstract",
+  },
 };
 const l10n = getIntlData(localizationStrings);
 
