@@ -33,12 +33,13 @@ const localizationStrings = {
       "è normativo.",
       keywordInterpretation(keywords, plural) {
         return html`<p>
-          ${plural ? "Le" : "La"} parole chiave ${keywords} in this document
-          ${plural ? "sono" : "è"} da interpretare come descritto nel
+          ${plural ? "Le" : "La"} parol${plural ? "e" : "a"} chiave
+          ${keywords} in questo documento ${plural ? "sono" : "è"}
+          da interpretare come descritto nel
           <a href="https://datatracker.ietf.org/doc/html/bcp14">BCP 14</a>
           ${renderInlineCitation("RFC2119")} ${renderInlineCitation("RFC8174")}
-          quando, e solo quando, appaiono con tutte maiuscole,
-          come mostrato qui.
+          quando, e solo quando, appaiono con tutte maiuscole, come mostrato
+          qui.
         </p>`;
       },
   },
