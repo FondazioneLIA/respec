@@ -9,7 +9,7 @@ const localizationStrings = {
     abstract: "Abstract",
   },
   it: {
-    abstract: "Abstract",
+    abstract: "Sommario",
   },
 };
 const l10n = getIntlData(localizationStrings);
