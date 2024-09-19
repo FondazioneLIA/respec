@@ -17,9 +17,9 @@ const additions = {
   },
   it: {
     status_at_publication: html`Questa sezione descrive lo stato di questo
-      documento al momento della sua pubblicazione. Altri documenti potebbero
-      sostituire questo documento. Un elenco delle pubblicazioni attuali di
-      Geonovum e l'ultima revisione di questo documento sono disponibili su
+    documento al momento della sua pubblicazione. Altri documenti potebbero
+    sostituire questo documento. Un elenco delle pubblicazioni attuali di
+    Geonovum e l'ultima revisione di questo documento sono disponibili su
       <a href="https://www.geonovum.nl/geo-standaarden/alle-standaarden"
         >https://www.geonovum.nl/geo-standaarden/alle-standaarden</a
       > (in olandese).`,
