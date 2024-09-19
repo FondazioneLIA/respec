@@ -23,6 +23,22 @@ const localizationStrings = {
       return label;
     },
   },
+  it: {
+    /**
+     *
+     * Do I need to translate also Appendix and Section?
+     * @param {"Appendix" | "Section"} sectionType
+     */
+    permalinkLabel(sectionType, sectionNumber) {
+      let label = `Permalink per${
+        !sectionNumber ? " questa" : ""
+      } ${sectionType}`;
+      if (sectionNumber) {
+        label += ` ${norm(sectionNumber.textContent)}`;
+      }
+      return label;
+    },
+  },
 };
 const l10n = getIntlData(localizationStrings);
 

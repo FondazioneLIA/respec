@@ -24,6 +24,25 @@ const localizationStrings = {
       </p>`;
     },
   },
+  it: {
+    conformance: "Conformità",
+    normativity:
+      "Oltre alle sezioni indicate come non normative, tutte le linee guida " +
+      "per gli autori, i diagrammi, gli esempi, e le note in questa " +
+      "specifica sono non normative. Tutto il resto in questa specifica è " +
+      "normativo.",
+    keywordInterpretation(keywords, plural) {
+      return html`<p>
+        ${plural ? "Le" : "La"} parol${plural ? "e" : "a"} chiave ${keywords} in
+        questo documento ${plural ? "sono" : "è"} da interpretare come descritto
+        nel
+        <a href="https://datatracker.ietf.org/doc/html/bcp14">BCP 14</a>
+        ${renderInlineCitation("RFC2119")} ${renderInlineCitation("RFC8174")}
+        quando, e solo quando, ${plural ? "appaiono" : "appare"} con tutte
+        maiuscole, come mostrato qui.
+      </p>`;
+    },
+  },
 };
 const l10n = getIntlData(localizationStrings);
 

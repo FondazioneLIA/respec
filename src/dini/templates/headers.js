@@ -21,6 +21,18 @@ const localizationStrings = {
     latest_published_version: "Latest published version:",
     this_version: "This version:",
   },
+  it: {
+    author: "Autore:",
+    authors: "Autori:",
+    editor: "Curatore:",
+    editors: "Curatori:",
+    former_editor: "Ex editore:",
+    former_editors: "Ex editori:",
+    latest_editors_draft: "Ultima bozza del curatore:",
+    latest_published_version: "Ultima versione approvata:",
+    this_version: "Questa versione:",
+    issue_tracker: "Tracker dei problemi:",
+  },
   ko: {
     author: "저자:",
     authors: "저자:",

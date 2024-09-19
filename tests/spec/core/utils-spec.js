@@ -278,6 +278,7 @@ describe("Core - Utils", () => {
     const { getIntlData } = utils;
     const localizationStrings = {
       en: { foo: "EN Foo", bar: "EN Bar" },
+      it: { foo: "IT Foo", bar: "IT Bar" },
       ko: { foo: "KO Foo" },
       "en-us": { foo: "EN-US Foo" },
     };
@@ -319,6 +320,7 @@ describe("Core - Utils", () => {
     const { getIntlDataForKey } = utils;
     const localizationStrings = {
       en: { foo: "EN Foo", bar: "EN Bar" },
+      it: { foo: "IT Foo", bar: "IT Bar" },
       zh: { foo: "KO Foo" },
       "zh-hans": { foo: "EN-US Foo" },
     };
