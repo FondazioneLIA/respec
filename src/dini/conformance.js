@@ -24,6 +24,23 @@ const localizationStrings = {
       </p>`;
     },
   },
+  it: {
+    conformance: "Conformità",
+    normativity:
+      "Oltre alle sezioni indicate come non normative, tutte le linee guida " +
+      "per gli autori, i diagrammi, gli esempi e le note in questa " +
+      "specifica sono non normative. Tutto il resto in questa specifica è" +
+      "normativo.",
+    keywordInterpretation(keywords, plural) {
+      return html`<p>
+        The key word${plural ? "s" : ""} ${keywords} in this document
+        ${plural ? "are" : "is"} to be interpreted as described in
+        <a href="https://datatracker.ietf.org/doc/html/bcp14">BCP 14</a>
+        ${renderInlineCitation("RFC2119")} ${renderInlineCitation("RFC8174")}
+        when, and only when, they appear in all capitals, as shown here.
+      </p>`;
+    },
+  },
   de: {
     conformance: "Anforderungen",
     normativity:
