@@ -28,16 +28,17 @@ const localizationStrings = {
     conformance: "Conformità",
     normativity:
       "Oltre alle sezioni indicate come non normative, tutte le linee guida " +
-      "per gli autori, i diagrammi, gli esempi e le note in questa " +
-      "specifica sono non normative. Tutto il resto in questa specifica è" +
+      "per gli autori, i diagrammi, gli esempi, e le note in questa " +
+      "specifica sono non normative. Tutto il resto in questa specifica è " +
       "normativo.",
     keywordInterpretation(keywords, plural) {
       return html`<p>
-        The key word${plural ? "s" : ""} ${keywords} in this document
-        ${plural ? "are" : "is"} to be interpreted as described in
+        parol${plural ? "e" : "a"} chiave ${keywords} in questo documento
+        ${plural ? "sono" : "è"} da interpretare come descritto nel
         <a href="https://datatracker.ietf.org/doc/html/bcp14">BCP 14</a>
         ${renderInlineCitation("RFC2119")} ${renderInlineCitation("RFC8174")}
-        when, and only when, they appear in all capitals, as shown here.
+        quando, e solo quando, ${plural ? "appaiono" : "appare"} con tutte
+        maiuscole, come mostrato qui.
       </p>`;
     },
   },
