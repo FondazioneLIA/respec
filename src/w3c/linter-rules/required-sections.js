@@ -32,6 +32,18 @@ const localizationStrings = {
     privacy_considerations: "Privacy Considerations",
     security_considerations: "Security Considerations",
   },
+  it: {
+    msg(sectionTitle) {
+      return `I documenti della traccia W3C Recommendation track documents richiedono una sezione separata "${sectionTitle}".`;
+    },
+    hint(sectionTitle) {
+      return docLink`Aggiungi una \`<section>\` con una intestazione "${sectionTitle}". Vedi le [Horizontal review guidelines](https://www.w3.org/Guide/documentreview/#how_to_get_horizontal_review).
+        Se il documento non è inteso per la traccia W3C Recommendation, imposta ${"[noRecTrack]"} a \`true\`
+        o disattiva la regola linter ${`[${ruleName}]`}.`;
+    },
+    privacy_considerations: "Considerazioni Privacy",
+    security_considerations: "Considerazioni Sicurezza",
+  },
   es: {
     msg(sectionTitle) {
       return `Documentos que van a ser "W3C Recommendation" requieren una sección "${sectionTitle}" separada.`;
