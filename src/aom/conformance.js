@@ -29,8 +29,8 @@ const localizationStrings = {
     normativity:
       "Oltre alle sezioni indicate come non normative, tutte le linee guida " +
       "per gli autori, i diagrammi, gli esempi, e le note in questa " +
-      "specifica sono non normative. Tutto il resto in questa specifica " +
-      "è normativo.",
+      "specifica sono non normative. Tutto il resto in questa specifica è " +
+      "normativo.",
     keywordInterpretation(keywords, plural) {
       return html`<p>
         parol${plural ? "e" : "a"} chiave ${keywords} in questo documento
