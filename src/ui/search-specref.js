@@ -11,6 +11,9 @@ const localizationStrings = {
   en: {
     search_specref: "Search Specref",
   },
+  it: {
+    search_specref: "Cerca Specref",
+  },
   nl: {
     search_specref: "Doorzoek Specref",
   },
