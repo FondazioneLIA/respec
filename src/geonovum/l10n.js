@@ -22,7 +22,7 @@ const additions = {
       Geonovum e l'ultima revisione di questo documento sono disponibili su
       <a href="https://www.geonovum.nl/geo-standaarden/alle-standaarden"
         >https://www.geonovum.nl/geo-standaarden/alle-standaarden</a
-      >.`,
+      >(in Dutch).`,
   },
   nl: {
     status_at_publication: html`Deze paragraaf beschrijft de status van dit
