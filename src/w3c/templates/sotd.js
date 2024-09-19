@@ -17,8 +17,7 @@ const localizationStrings = {
       documento al momento della sua pubblicazione. Un elenco delle attuali
       pubblicazioni del W3C e l'ultima revisione di questo rapporto tecnico si
       trovano nell'<a href="https://www.w3.org/TR/"
-      >indice dei rapporti
-      tecnici del W3C</a> su https://www.w3.org/TR/.`,
+      >indice dei rapporti tecnici del W3C</a> su https://www.w3.org/TR/.`,
   },
   ko: {
     sotd: "현재 문서의 상태",
